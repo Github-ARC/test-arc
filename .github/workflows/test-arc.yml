@@ -5,5 +5,5 @@ jobs:
   my-job:
     runs-on: [arc-test,azure,self-hosted]
     steps:
-      - name: my-step-test
+      - name: my-step
         run: echo "Hello World!"
